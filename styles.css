@@ -14,9 +14,9 @@ body {
 /* Navbar Styles */
 .navbar {
     display: flex;
-    justify-content: space-between;
-    align-items: right;
-    padding: 20px 150px; /* Increased padding to push navbar further to the right */
+    justify-content: flex-end; /* Moves entire navbar to the right */
+    align-items: center;
+    padding: 20px 40px;
     background: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -26,17 +26,14 @@ body {
     z-index: 1000;
 }
 
-.navbar .logo a {
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: bold;
-    color: purple;
+.navbar .logo {
+    margin-right: auto; /* Ensures logo stays on the left */
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    margin-right: 40px; /* Moves nav links further to the right */
+    margin-left: auto; /* Moves nav links to the right */
 }
 
 .nav-links li {

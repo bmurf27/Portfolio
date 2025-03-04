@@ -14,26 +14,27 @@ body {
 /* Navbar Styles */
 .navbar {
     display: flex;
-    justify-content: flex-end; /* Moves entire navbar to the right */
+    justify-content: flex-end; /* Moves navbar contents to the right */
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 80px;
     background: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
     top: 0;
-    left: 0;
+    right: 0; /* Aligns the navbar to the right side */
     z-index: 1000;
 }
 
+/* Ensuring the logo stays on the far left */
 .navbar .logo {
-    margin-right: auto; /* Ensures logo stays on the left */
+    margin-right: auto;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    margin-left: auto; /* Moves nav links to the right */
+    margin-left: auto; /* Ensures links are pushed right */
 }
 
 .nav-links li {

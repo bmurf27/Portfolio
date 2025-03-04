@@ -78,14 +78,14 @@ body {
     margin-bottom: 20px;
 }
 
-/* Button Fix - Ensures Buttons Are Centered and Adds Space */
+/* Button Fix - Ensures Buttons Are Centered and Adds More Space */
 .buttons {
     margin-top: 20px;
     display: flex;
     justify-content: center; /* Ensures buttons are centered */
     align-items: center;
     width: 100%;
-    gap: 30px; /* Increases space between buttons */
+    gap: 50px; /* Further increases space between buttons */
 }
 
 .btn {
@@ -191,3 +191,4 @@ body {
         display: flex;
     }
 }
+

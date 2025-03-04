@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 80px; /* Increased padding to push navbar further to the right */
+    padding: 20px 150px; /* Increased padding to push navbar further to the right */
     background: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: fixed;

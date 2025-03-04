@@ -85,7 +85,7 @@ body {
     justify-content: center; /* Ensures buttons are centered */
     align-items: center;
     width: 100%;
-    gap: 100px; /* Further increases space between buttons */
+    gap: 75px; /* Further increases space between buttons */
 }
 
 .btn {

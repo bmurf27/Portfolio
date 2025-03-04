@@ -71,7 +71,7 @@ body {
 .hero h1 span {
     color: purple;
 }
- 
+
 .hero h2 {
     font-size: 24px;
     color: #555;
@@ -93,21 +93,24 @@ body {
     font-size: 18px;
     border-radius: 5px;
     text-decoration: none;
-    transition: background 0.3s;
+    transition: background 0.3s, border 0.3s, color 0.3s;
 }
 
 .btn.primary {
-    background: purple;
-    color: white;
+    border: 2px solid purple;
+    color: purple;
+    background: transparent;
 }
 
 .btn.primary:hover {
-    background: darkpurple;
+    background: purple;
+    color: white;
 }
 
 .btn.secondary {
     border: 2px solid purple;
     color: purple;
+    background: transparent;
 }
 
 .btn.secondary:hover {
@@ -191,4 +194,3 @@ body {
         display: flex;
     }
 }
-

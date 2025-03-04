@@ -24,20 +24,16 @@ body {
     top: 0;
     left: 0;
     z-index: 1000;
-    padding-left: 20px; /* Ensures navbar stays properly aligned */
 }
 
-.navbar .logo a {
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: bold;
-    color: purple;
+.navbar .logo {
+    margin-left: 20px; /* Moves logo and nav more to the left */
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    margin-left: 20px;
+    margin-left: 40px; /* Moves nav links further left */
 }
 
 .nav-links li {
@@ -113,9 +109,10 @@ body {
         background: white;
         position: absolute;
         top: 60px;
-        right: 20px;
+        left: 0; /* Aligns dropdown menu to the left */
         width: 200px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding-left: 10px;
     }
     .nav-links.active {
         display: flex;

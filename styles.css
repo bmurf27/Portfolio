@@ -71,7 +71,7 @@ body {
 .hero h1 span {
     color: purple;
 }
-
+ 
 .hero h2 {
     font-size: 24px;
     color: #555;
@@ -85,7 +85,7 @@ body {
     justify-content: center; /* Ensures buttons are centered */
     align-items: center;
     width: 100%;
-    gap: 75px; /* Further increases space between buttons */
+    gap: 50px; /* Further increases space between buttons */
 }
 
 .btn {
